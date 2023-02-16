@@ -6,10 +6,6 @@ module.exports = {
   },
   extends: ['airbnb', 'eslint:recommended', 'plugin:prettier/recommended'],
   rules: {
-    'import/no-extraneous-dependencies': [
-      'error',
-      { projectDependencies: false },
-    ],
     'react/react-in-jsx-scope': 'off',
     'react/jsx-filename-extension': [
       'error',
