@@ -6,6 +6,9 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
   }
+  :root {
+    --backColor : #7749F8;
+  }
 `;
 
 export default GlobalStyle;
