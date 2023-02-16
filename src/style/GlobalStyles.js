@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import Chewy from './font/Chewy-Regular.ttf';
 
 const GlobalStyle = createGlobalStyle`
   *, *::before, *::after {
@@ -8,6 +9,12 @@ const GlobalStyle = createGlobalStyle`
   }
   :root {
     --backColor : #7749F8;
+  }
+  font-face {
+    font-family: 'Chewy';
+    src: local('Chewy'), local('Chewy-Regular');
+    font-style: normal;
+    src: url(${Chewy}) format('truetype');
   }
 `;
 

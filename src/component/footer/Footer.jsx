@@ -1,10 +1,6 @@
 import styled from 'styled-components';
 
-const FooterMain = styled.footer`
-  width: 100%;
-  background-color: var(--backColor);
-  height: 200px;
-`;
+const FooterMain = styled.footer``;
 const FooterBody = styled.div`
   margin: 0 auto;
   max-width: 70%;
