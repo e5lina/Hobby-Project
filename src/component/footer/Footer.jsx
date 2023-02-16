@@ -1,20 +1,20 @@
-import styled from 'styled-components';
-
-const FooterMain = styled.footer`
-  width: 100%;
-  background-color: var(--backColor);
-  height: 200px;
-`;
-const FooterBody = styled.div`
-  margin: 0 auto;
-  max-width: 70%;
-  height: 200px;
-`;
+import facebook from '../../image/facebook.png';
+import kakao from '../../image/kakao.png';
+import instagram from '../../image/instagram.png';
+import { FooterBody, FooterMain } from './FooterBody';
 
 function Footer() {
   return (
     <FooterMain>
-      <FooterBody />
+      <FooterBody>
+        <div className="Logo">Free Hobby</div>
+        <div className="teamname">팀 : 한승진, 고정훈</div>
+        <div className="Logos">
+          <img src={facebook} alt="facebooklogo" />
+          <img src={instagram} alt="instagramlogo" />
+          <img src={kakao} alt="kakaologo" />
+        </div>
+      </FooterBody>
     </FooterMain>
   );
 }

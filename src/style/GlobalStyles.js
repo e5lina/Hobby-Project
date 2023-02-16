@@ -8,6 +8,9 @@ const GlobalStyle = createGlobalStyle`
   }
   :root {
     --backColor : #7749F8;
+    --logofontsize : 23px;
+    --16font : 16px;
+    --fontsize : 20px;
   }
 `;
 
