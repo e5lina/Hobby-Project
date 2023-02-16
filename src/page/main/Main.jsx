@@ -5,13 +5,17 @@ import Header from '../../component/header/Header';
 const MainBody = styled.main`
   width: 100%;
   height: 100px;
-  border: 1px solid red;
+`;
+
+const MainCont = styled.article`
+  max-width: 1200px;
 `;
 
 function Main() {
   return (
     <MainBody>
       <Header />
+      <MainCont />
       <Footer />
     </MainBody>
   );
