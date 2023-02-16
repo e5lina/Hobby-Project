@@ -15,20 +15,23 @@ export const HeaderCont = styled.main`
   display: flex;
   justify-content: space-between;
   color: white;
-`;
-
-export const Logo = styled.h3`
-  font-weight: 600;
-  font-size: 23px;
-  margin: 17px 40px;
-  font-family: var(--Chewy);
+  .Logo {
+    font-weight: 600;
+    font-size: 23px;
+    margin: 17px 40px;
+    font-family: var(--Chewy);
+    text-decoration: none;
+    color: #fff;
+  }
 `;
 
 export const HeaderMenu = styled.ul`
   list-style: none;
   display: flex;
   font-weight: bold;
-  & li {
+  .nav {
+    text-decoration: none;
+    color: #fff;
     margin: 20px 40px;
   }
 `;

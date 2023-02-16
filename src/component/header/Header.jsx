@@ -1,13 +1,20 @@
-import { HeaderMain, HeaderCont, Logo, HeaderMenu } from './HeaderStyle';
+import { Link } from 'react-router-dom';
+import { HeaderMain, HeaderCont, HeaderMenu } from './HeaderStyle';
 
 function Header() {
   return (
     <HeaderMain>
       <HeaderCont>
-        <Logo>Free Hobby</Logo>
+        <Link to="/" className="Logo">
+          Free Hobby
+        </Link>
         <HeaderMenu>
-          <li>Sign up</li>
-          <li>Login</li>
+          <Link to="/signup" className="nav">
+            Sign up
+          </Link>
+          <Link to="/login" className="nav">
+            Login
+          </Link>
         </HeaderMenu>
       </HeaderCont>
     </HeaderMain>
