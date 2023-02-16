@@ -7,8 +7,10 @@ function Footer() {
   return (
     <FooterMain>
       <FooterBody>
-        <div className="Logo">Free Hobby</div>
-        <div className="teamname">팀 : 한승진, 고정훈</div>
+        <div className="box1">
+          <div className="Logo">Free Hobby</div>
+          <div className="teamname">팀 : 한승진, 고정훈</div>
+        </div>
         <div className="Logos">
           <img src={facebook} alt="facebooklogo" />
           <img src={instagram} alt="instagramlogo" />
