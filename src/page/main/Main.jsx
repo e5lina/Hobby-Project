@@ -4,8 +4,7 @@ import Header from '../../component/header/Header';
 
 const MainBody = styled.main`
   width: 100%;
-  height: 300px;
-  border: 1px solid red;
+  height: 100px;
 `;
 
 function Main() {
