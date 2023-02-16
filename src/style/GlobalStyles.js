@@ -15,10 +15,11 @@ const GlobalStyle = createGlobalStyle`
     --fontsize : 20px;
   }
   font-face {
-    font-family: 'Chewy';
-    src: local('Chewy'), local('Chewy-Regular');
-    font-style: normal;
-    src: url(${Chewy}) format('truetype');
+    font-family: "Chewy";
+        src: local("Chewy"),
+        url(${Chewy}) format('ttf');
+        font-weight: 500;
+        font-style: normal;
   }
 `;
 
