@@ -20,7 +20,7 @@ const Logo = styled.h3`
   font-weight: 600;
   font-size: 23px;
   margin: 17px 40px;
-  font-family: 'Chewy';
+  font-family: var(--Chewy);
 `;
 
 const HeaderMenu = styled.ul`

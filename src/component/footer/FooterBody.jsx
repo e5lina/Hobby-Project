@@ -23,6 +23,7 @@ export const FooterBody = styled.div`
     padding: 10px 0;
     font-size: var(--logofontsize);
     float: left;
+    font-family: var(--Chewy);
   }
   .teamname {
     font-size: var(--16font);

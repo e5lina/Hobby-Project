@@ -1,5 +1,4 @@
 import { createGlobalStyle } from 'styled-components';
-import Chewy from './font/Chewy-Regular.ttf';
 
 const GlobalStyle = createGlobalStyle`
 
@@ -13,13 +12,7 @@ const GlobalStyle = createGlobalStyle`
     --logofontsize : 23px;
     --16font : 16px;
     --fontsize : 20px;
-  }
-  font-face {
-    font-family: "Chewy";
-        src: local("Chewy"),
-        url(${Chewy}) format('ttf');
-        font-weight: 500;
-        font-style: normal;
+    --Chewy : 'Chewy', cursive;
   }
 `;
 
