@@ -19,7 +19,7 @@ export const HeaderCont = styled.main`
     font-weight: 600;
     font-size: 23px;
     margin: 17px 40px;
-    font-family: var(--Chewy);
+    font-family: var(--Gajraj);
     text-decoration: none;
     color: #fff;
   }
