@@ -13,6 +13,7 @@ const GlobalStyle = createGlobalStyle`
     --16font : 16px;
     --fontsize : 20px;
     --Chewy : 'Chewy', cursive;
+    --IBMPlexSans: 'IBM Plex Sans KR', sans-serif;
     --checkbutton : #FFC44C;
   }
 `;

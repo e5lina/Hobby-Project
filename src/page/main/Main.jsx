@@ -150,7 +150,7 @@ function Main() {
             <b>Free Hobby</b>는 취미를 공유하며 서로가 <b>멘토멘티</b>가 되는
             사이트이면서 서로가 <b>친구</b>가 되는 사이트입니다.
           </h4>
-          <Link to="/" className="link">
+          <Link to="/detail" className="link">
             <button type="button">사이트 둘러보기</button>
           </Link>
         </span>
