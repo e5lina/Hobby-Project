@@ -13,6 +13,7 @@ const GlobalStyle = createGlobalStyle`
     --16font : 16px;
     --fontsize : 20px;
     --Chewy : 'Chewy', cursive;
+    --Gajraj : 'Gajraj One', cursive;
     --checkbutton : #FFC44C;
   }
 `;
