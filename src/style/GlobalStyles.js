@@ -16,6 +16,7 @@ const GlobalStyle = createGlobalStyle`
     --IBMPlexSans: 'IBM Plex Sans KR', sans-serif;
     --Gajraj : 'Gajraj One', cursive;
     --checkbutton : #FFC44C;
+    --grayColor : #c2c2c2;
   }
 `;
 

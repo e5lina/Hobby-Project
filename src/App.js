@@ -4,6 +4,9 @@ import Login from './page/login/login';
 import Signup from './page/signup/signup';
 import Detail from './page/detail/detail';
 import Update from './page/update/update';
+import Mypage from './page/mypage/mypage';
+import Myprofil from './page/myprofil/myprofil';
+import Repswd from './page/repassword/repasswd';
 
 function App() {
   return (
@@ -13,6 +16,9 @@ function App() {
       <Route path="/signup" element={<Signup />} />
       <Route path="/detail" element={<Detail />} />
       <Route path="/update" element={<Update />} />
+      <Route path="/mypage" element={<Mypage />} />
+      <Route path="/myprofil" element={<Myprofil />} />
+      <Route path="/repassword" element={<Repswd />} />
     </Routes>
   );
 }
