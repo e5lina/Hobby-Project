@@ -7,6 +7,7 @@ import Update from './page/update/update';
 import Mypage from './page/mypage/mypage';
 import Myprofil from './page/myprofil/myprofil';
 import Repswd from './page/repassword/repasswd';
+import WritePage from './page/write/writePage';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Route path="/mypage" element={<Mypage />} />
       <Route path="/myprofil" element={<Myprofil />} />
       <Route path="/repassword" element={<Repswd />} />
+      <Route path="/writePage" element={<WritePage />} />
     </Routes>
   );
 }
